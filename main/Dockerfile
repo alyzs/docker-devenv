@@ -6,9 +6,9 @@
 FROM alyz/devbase
 
 # Install utilities
-RUN apt-get update \
-    && apt-get -y upgrade \
-    && apt-get install -y sudo rsync
+# RUN apt-get update \
+#     && apt-get -y upgrade
+RUN apt-get install -y sudo rsync
 
 # Install python
 RUN apt-get install -y python python3
