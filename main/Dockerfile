@@ -5,9 +5,10 @@
 # Pull base image.
 FROM alyz/devbase
 
+RUN apt-get update \
+    && apt-get -y upgrade
+
 # Install utilities
-# RUN apt-get update \
-#     && apt-get -y upgrade
 RUN apt-get install -y sudo rsync
 
 # Install python
