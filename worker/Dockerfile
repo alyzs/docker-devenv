@@ -24,10 +24,11 @@ RUN \
     && apt-get install -y python-pastescript python-flup python-xmpp
 
 RUN \
-    apt-get install -y gnupg2 telnet imagemagick memcached \
+    apt-get install -y gnupg telnet imagemagick memcached \
     && apt-get install -y host whois less screen netcat socat \
     && apt-get install -y gcc g++ gfortran make mercurial git subversion cvs ccrypt \
-    && apt-get install -y opensp w3c-sgml-lib
+    && apt-get install -y opensp w3c-sgml-lib \
+    && apt-get install -y swig libxml2-utils
 
 RUN apt-get install -y python-pip python3-pip python-virtualenv python3-virtualenv
 
