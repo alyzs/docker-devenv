@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM alyz/devenv:latest
+FROM alyz/devenv:20170710
 
 # Install.
 RUN \
