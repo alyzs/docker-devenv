@@ -15,7 +15,7 @@ RUN apt-get install -y sudo rsync
 RUN apt-get install -y python python3
 
 # Install python libraries
-RUN apt-get install -y python-gd python-imaging python-magic python-six python3-magic python3-six \
+RUN apt-get install -y python-gd python-pil python-magic python-six python3-magic python3-six \
     && apt-get install -y python-openssl python3-openssl \
     && apt-get install -y python-crypto python3-crypto \
     && apt-get install -y python-webob python3-webob \
