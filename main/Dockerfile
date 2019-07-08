@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM alyz/devbase:20170710
+FROM alyz/devbase:testing
 
 RUN apt-get update \
     && apt-get -y upgrade
