@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM alyz/devenv:testing
+FROM alyz/devenv:buster
 
 # Install.
 RUN \

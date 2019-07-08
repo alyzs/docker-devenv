@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM alyz/devbase:testing
+FROM alyz/devbase:buster
 
 RUN apt-get update \
     && apt-get -y upgrade
