@@ -3,7 +3,7 @@
 #
 
 # Pull base image.
-FROM alyz/devenv:20170710
+FROM alyz/devenv:stretch
 
 # Install.
 RUN \
